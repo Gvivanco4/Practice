@@ -4,6 +4,8 @@ class perro:
         self.size = size
         self.name = name
         self.rascar = rascadas
+        
+class lobo(perro):
 
     def tocar_nariz(self):
         print(f"Procedo a tocar la nariz de {self.name} y me di cuenta que")
